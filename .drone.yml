@@ -7,12 +7,14 @@ steps:
   - name: install
     image: misterio92/ci-php-node:4.0
     commands:
-    - composer update
-    - composer install
-    - npm install
-    - npm install --global gulp-cli
-    - node --version
-    - npm --version
-    - gulp --version
-    - gulp default
-    - git status
+      - apt-get install imagemagick
+      - apt-get install graphicsmagick
+      - composer update
+      - composer install
+      - npm install
+      - npm install --global gulp-cli
+      - node --version
+      - npm --version
+      - gulp --version
+      - gulp default
+      - git status
