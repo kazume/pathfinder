@@ -7,5 +7,6 @@ steps:
   - name: install
     image: misterio92/ci-php-node
     commands:
+      - composer update
       - composer install
       - npm install
