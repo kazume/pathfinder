@@ -16,7 +16,6 @@ steps:
     - gulp --version
     - gulp default
 
-    - name: git check
-      commands:
-        - git status
-        -
+  - name: git check
+    commands:
+      - git status
