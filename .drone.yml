@@ -15,7 +15,4 @@ steps:
     - npm --version
     - gulp --version
     - gulp default
-
-  - name: git check
-    commands:
-      - git status
+    - git status
