@@ -7,6 +7,7 @@ steps:
   - name: install
     image: misterio92/ci-php-node:4.0
     commands:
+      - apt-get update
       - apt-get install -y imagemagick graphicsmagick
       - composer update
       - composer install
