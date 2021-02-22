@@ -16,5 +16,5 @@ steps:
       - node --version
       - npm --version
       - gulp --version
-      - gulp default
+      - gulp production
       - git status
