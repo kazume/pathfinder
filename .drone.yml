@@ -1,0 +1,11 @@
+---
+kind: pipeline
+name: default
+type: docker
+
+steps:
+  - name: install
+    image: misterio92/ci-php-node
+    commands:
+      - composer install
+      - npm install
