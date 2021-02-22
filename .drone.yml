@@ -5,7 +5,7 @@ type: docker
 
 steps:
   - name: install
-    image: misterio92/ci-php-node:4
+    image: misterio92/ci-php-node:4.0
     commands:
       - composer update
       - composer install
