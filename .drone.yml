@@ -10,3 +10,4 @@ steps:
       - composer update
       - composer install
       - npm install
+      - gulp default
